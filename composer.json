@@ -11,8 +11,9 @@
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",
+        "laravel/nova": "*",
         "laravel/tinker": "^1.0",
-        "laravel/nova": "*"
+        "laravel/ui": "^1.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
