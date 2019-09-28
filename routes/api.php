@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/map/create', 'AjaxController@createMap');
+Route::get('/map/{id}', 'AjaxController@getMap');
+Route::get('/map/{id}/way', 'AjaxController@getWay');
+
